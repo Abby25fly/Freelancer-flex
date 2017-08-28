@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Freelancer</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<!-- Escribe tu código aquí -->
+	<header>
+		<div class="menu flex-container">
+			<nav>
+				<a href="#mainHeader" class="text-uppercase mainLink">Start Bootstrap</a>
+			</nav>
+			<a href="#mainContac" class="text-uppercase link">Contact</a>
+			<a href="#mainAbout" class="text-uppercase link">About</a>
+			<a href="#mainPorta" class="text-uppercase link">Portafolio</a>
+		</div>
+	</header>
+	<section id="mainHeader">
+		<div class="portada">
+			<img class="profile" src="assets/images/profile.png" alt="">
+			<div class="text-uppercase text-portada">Start Bootstrap</div>
+			<div class="mainStart">
+				<div class="lineStar"></div><div class="star">&#x2605;</div><div class="lineStar"></div>
+			</div>
+			<div class="text-option">Web Developer - Graphic Artist - User Experience Designer</div>
+		</div>
+	</section>
+
+	<section id="mainPorta">
+		<div class="portafolio">
+			<center>
+			<div class="text-uppercase text-porta1 ">Portfolio</div>
+			<div class="mainStart2">
+				<div class="lineStar2"></div><div class="star2">&#x2605;</div><div class="lineStar2"></div>
+			</div>
+			</center>
+			<div class="img-portfolio">
+				<div class="img-productos">
+					<img id="myImg" src="assets/images/portfolio/cabin.png" alt="PROYECT TITLE" class="img-responsive">
+				</div>
+				<div class="img-productos">
+					<img id="myImg2" src="assets/images/portfolio/cake.png"  alt="PROYECT TITLE 2" class="img-responsive">
+				</div>
+				<div class="img-productos">
+					<img id="myImg3" src="assets/images/portfolio/circus.png"  alt="PROYECT TITLE 3" class="img-responsive">
+				</div>
+				<div class="img-productos">
+					<img id="myImg4" src="assets/images/portfolio/game.png"  alt="PROYECT TITLE 4" class="img-responsive">
+				</div>
+				<div class="img-productos">
+					<img id="myImg5" src="assets/images/portfolio/safe.png" alt="PROYECT TITLE 5" class="img-responsive">
+				</div>
+				<div class="img-productos">
+					<img id="myImg6" src="assets/images/portfolio/submarine.png"  alt="PROYECT TITLE 6" class="img-responsive">
+				</div>
+				<!-- Modal -->
+				<center>
+				<div id="myModal" class="modal">
+				  <span class="close">&times;</span>
+					<div id="imgTitle"></div>
+				  <img class="modal-content" id="imgContent">
+					<div id="imgText"></div>
+				</div>
+				</center>
+			</div>
+		</div>
+	</section>
+	<!-- About -->
+	<section id="mainAbout">
+			<div class="about">
+				<h1 class="text-uppercase text-about">About</h1>
+				<div class="mainStart">
+					<div class="lineStar"></div><div class="star">&#x2605;</div><div class="lineStar"></div>
+				</div>
+				<div class="texto">
+	        Freelancer is a free bootstrap theme created by Abby. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
+	      </div>
+	      <div class="texto">
+					Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
+	      </div>
+				<div class="">
+					<button type="button" class="btn-down">&#8681; Download Theme</button>
+				</div>
+			</div>
+	</section>
+	<!-- formulario-->
+	<section class="formulario" id="mainContac">
+		<center>
+		<h2 class="text-uppercase text-form">Contact me</h2>
+		<div class="mainStart2">
+			<div class="lineStar2"></div><div class="star2">&#x2605;</div><div class="lineStar2"></div>
+		</div>
+		<form class="mainForm">
+			<div class="">
+				<input class="contact-form"  type="text" placeholder="Name" required="Please enter your name.">
+			</div>
+			<div class="">
+				<input class="contact-form"  type="email" placeholder="Email Address" required="Please enter your email address.">
+			</div>
+			<div class="">
+				<input class="contact-form"  type="cellphone" placeholder="Phone Number" required="Please enter your phone number.">
+			</div>
+			<div class="">
+				<textarea class="contact-form" rows="5" placeholder="Message" required="Please enter a message."></textarea>
+			</div>
+			<br>
+			<div class="">
+				<button type="submit" class="btn-contac" >Send</button>
+			</div>
+    </form>
+	</center>
+	</section>
+	<!-- footer-->
+	<footer>
+			<div class="footContainer">
+				<div class="footItems">
+					<h3>Location</h3>
+					<p>3481 Melrose Place
+						<br>Beverly Hills, CA 90210</p>
+				</div>
+				<div class="footItems">
+					<h3>Around the Web</h3>
+					<div class="">
+						<a href="#" class="fa fa-facebook"></a>
+						<a href="#" class="fa fa-twitter"></a>
+						<a href="#" class="fa fa-google"></a>
+						<a href="#" class="fa fa-linkedin"></a>
+						<a href="#" class="fa fa-youtube"></a>
+						<a href="#" class="fa fa-instagram"></a>
+					</div>
+				</div>
+				<div class="footItems">
+					<h3>About Freelancer</h3>
+					<p>Freelance is a free to use, open source Bootstrap theme created by
+						<a href="" class="linkStart">Start Bootstrap</a>.</p>
+				</div>
+			</div>
+			<div class="footEnd">
+				<p>Copyright © Your Website 2017</p>
+			</div>
+	</footer>
+	<!-- Enlaza aquí tu archivo JS -->
+	<script src="js/app.js"></script>
+</body>
+</html>
